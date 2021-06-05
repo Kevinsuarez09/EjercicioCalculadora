@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+body{
+    font-family: 'Pattaya', sans-serif;
+    background:url(../img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.cont-c{
+    width: 400px;
+    margin: 0 auto;
+    background: #1b8cf5a2;
+    padding: 40px 20px;
+    border-radius: 20%;
+}
+
+.cont-c table{
+    margin: 0 auto;
+}
+
+.cont-c table tr td button{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 40%;
+    transition: 0.3s;
+    background: #8a8a8a8a;
+}
+
+.cont-c table tr td button:hover{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 40%;
+    background: url(../img/img1.gif);
+    background-size: cover;
+    color: #e41313;
+}
+
+#pantalla{
+  display: block;
+  text-align: right;  
+  font-size: 30px;
+  width: 320px;
+  height: 80px;
+  background: #ffffff9d;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  line-height: 90px;
+  padding: 10px;
+}
